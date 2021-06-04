@@ -5,6 +5,15 @@ public class User {
     private String gender;
     private String dob;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", gender='" + gender + '\'' +
+                ", dob='" + dob + '\'' +
+                '}';
+    }
+
     public User() {
     }
 
