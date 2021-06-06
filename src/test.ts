@@ -19,7 +19,7 @@ getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting()
 );
-// Then we find all the tests.
+// Then we find all the tests. And it is a test.
 const context = require.context('./', true, /\.spec\.ts$/);
 // And load the modules and this is a git demo.
 context.keys().map(context);
